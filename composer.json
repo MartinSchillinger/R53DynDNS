@@ -1,0 +1,27 @@
+{
+  "name": "martinschillinger/route53-dyndns",
+  "type": "project",
+  "require": {
+    "aws/aws-sdk-php": "^3.138",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "DynR53\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Martin Schillinger",
+      "email": "mail@martin-schillinger.de"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}
